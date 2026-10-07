@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Idraulica Sala — Idraulico a Monza e Brianza, pronto intervento</title>
+<meta name="description" content="Idraulica Sala a Monza: pronto intervento per perdite e allagamenti, caldaie, rifacimento bagni. Preventivo chiaro prima di iniziare. Sito di esempio.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Plumber","name":"Idraulica Sala","description":"Pronto intervento, perdite, caldaie e rifacimento bagni a Monza e in Brianza.","telephone":"+390391234567","address":{"@type":"PostalAddress","streetAddress":"Via Lecco 45","addressLocality":"Monza","postalCode":"20900","addressRegion":"MB","addressCountry":"IT"},"areaServed":["Monza","Brianza"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:30","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"12:30"}]}
+</script>
+<style>
+  :root{
+    --petrolio:#0F3D4C; --petrolio-2:#0A2C38; --ardesia:#44566B; --arancio:#C2410C; --arancio-chiaro:#FF9F5A;
+    --bianco:#fff; --fondo:#F4F7F8; --linea:#D9E2E6; --testo:#15262E; --grigio:#4A5C66; --wa:#0B7A3B;
+    --font-t:Georgia,"Times New Roman",serif; --font-b:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font-b);color:var(--testo);background:var(--bianco);line-height:1.6;overflow-x:hidden;padding-bottom:0}
+  a{color:inherit}
+  svg{flex-shrink:0}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+  h1,h2,h3{font-family:var(--font-t);line-height:1.12;letter-spacing:-.01em}
+  h2{font-size:clamp(1.75rem,5vw,2.5rem);margin-bottom:.5em;color:var(--petrolio)}
+  .eyebrow{color:var(--arancio);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem;margin-bottom:.7em}
+  section{padding:64px 0}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;min-height:48px;padding:.7em 1.4em;border-radius:12px;font-weight:700;font-size:1rem;text-decoration:none;transition:transform .15s,box-shadow .15s}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(0,0,0,.2)}
+  .btn svg{width:20px;height:20px;fill:currentColor}
+  .btn-call{background:var(--arancio);color:#fff}
+  .btn-wa{background:var(--wa);color:#fff}
+  .btn-line{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55)}
+  :focus-visible{outline:3px solid var(--arancio-chiaro);outline-offset:2px}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:10;background:var(--petrolio-2);color:#fff}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+  .logo{font-family:var(--font-t);font-weight:700;font-size:1.3rem;text-decoration:none;display:flex;align-items:center;gap:10px;min-height:44px}
+  .logo i{width:30px;height:30px;border-radius:50%;background:var(--arancio);display:grid;place-items:center}
+  .logo i svg{width:16px;height:16px;fill:#fff}
+  nav ul{display:flex;gap:1.6em;list-style:none}
+  nav ul a{text-decoration:none;font-weight:500;font-size:.95rem;color:#C9D8DE;display:inline-block;padding:10px 0}
+  nav ul a:hover{color:#fff}
+  .nav-cta{min-height:44px;padding:.5em 1.1em;font-size:.95rem}
+  @media(max-width:760px){nav ul{display:none}}
+
+  /* hero */
+  .hero{background:var(--petrolio);color:#fff;padding:36px 0 52px;position:relative;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:0;background:
+     radial-gradient(circle at 92% 8%,rgba(255,159,90,.22) 0,transparent 34%),
+     repeating-linear-gradient(135deg,rgba(255,255,255,.03) 0 2px,transparent 2px 22px)}
+  .hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+  .urgent{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 14px;font-size:.85rem;font-weight:600;margin-bottom:18px}
+  .urgent b{width:9px;height:9px;border-radius:50%;background:#4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,.25)}
+  .hero h1{font-size:clamp(2.1rem,8vw,3.8rem);font-weight:700;margin-bottom:.45em}
+  .hero h1 em{font-style:normal;color:var(--arancio-chiaro)}
+  .hero p.lead{font-size:1.1rem;color:#D3E0E5;max-width:46ch;margin-bottom:1.5em}
+  .hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+  .hero-btns .btn{flex:1 1 200px;min-height:54px;font-size:1.05rem}
+  .hero-info{margin-top:22px;display:flex;gap:10px 22px;flex-wrap:wrap;font-size:.92rem;color:#C9D8DE}
+  .hero-info span::before{content:"\2713\00a0";color:var(--arancio-chiaro);font-weight:700}
+  .hero-art{display:grid;place-items:center}
+  .hero-art svg{width:100%;max-width:340px;height:auto}
+  @media(max-width:760px){.hero .wrap{grid-template-columns:1fr;gap:0}.hero-art{display:none}}
+
+  /* chi siamo */
+  .chi{background:var(--fondo)}
+  .chi .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+  .chi p{color:var(--grigio);margin-bottom:1em;font-size:1.05rem}
+  .punti{display:grid;gap:14px;list-style:none}
+  .punti li{background:#fff;border:1px solid var(--linea);border-left:5px solid var(--arancio);border-radius:12px;padding:16px 18px}
+  .punti b{display:block;color:var(--petrolio);font-family:var(--font-t);font-size:1.15rem}
+  .punti span{font-size:.95rem;color:var(--grigio)}
+  @media(max-width:760px){.chi .wrap{grid-template-columns:1fr;gap:28px}}
+
+  /* servizi */
+  .serv-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  .serv{border:1px solid var(--linea);border-radius:16px;padding:22px;background:#fff}
+  .serv .ico{width:44px;height:44px;border-radius:12px;background:var(--petrolio);display:grid;place-items:center;margin-bottom:14px}
+  .serv .ico svg{width:24px;height:24px;stroke:var(--arancio-chiaro);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .serv h3{font-size:1.25rem;color:var(--petrolio);margin-bottom:.3em}
+  .serv p{color:var(--grigio);font-size:.96rem;margin-bottom:.8em}
+  .serv .prezzo{font-weight:700;color:var(--arancio);font-size:.98rem}
+  .serv-note{margin-top:24px;color:var(--grigio);font-size:.92rem}
+  @media(max-width:760px){.serv-grid{grid-template-columns:1fr}}
+
+  /* come funziona */
+  .come{background:var(--petrolio);color:#fff}
+  .come h2{color:#fff}
+  .come .eyebrow{color:var(--arancio-chiaro)}
+  .passi{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;list-style:none;counter-reset:p}
+  .passi li{counter-increment:p;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:22px}
+  .passi li::before{content:counter(p);display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--arancio);color:#fff;font-weight:700;margin-bottom:12px}
+  .passi h3{font-size:1.15rem;margin-bottom:.3em}
+  .passi p{font-size:.94rem;color:#D3E0E5}
+  @media(max-width:900px){.passi{grid-template-columns:1fr 1fr}}
+  @media(max-width:560px){.passi{grid-template-columns:1fr}}
+
+  /* orari + recensioni */
+  .info .wrap{display:grid;grid-template-columns:1fr 1.25fr;gap:48px}
+  .orari{list-style:none}
+  .orari li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--linea)}
+  .orari li span:last-child{font-weight:600;text-align:right}
+  .emerg{margin-top:18px;background:#FFF1E8;border:1px solid #F5C7A8;border-radius:12px;padding:14px 16px;font-size:.95rem;color:#5A2308}
+  .rev{display:grid;gap:14px}
+  .card{background:var(--fondo);border:1px solid var(--linea);border-radius:16px;padding:20px}
+  .card .stelle{color:#B45309;letter-spacing:2px;font-size:.95rem}
+  .card p{margin:.5em 0;font-size:.98rem}
+  .card small{color:var(--grigio)}
+  @media(max-width:760px){.info .wrap{grid-template-columns:1fr;gap:36px}}
+
+  /* contatti */
+  .contatti{background:var(--fondo)}
+  .contatti .wrap{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+  .contatti p.intro{color:var(--grigio);margin-bottom:1.2em}
+  .riga{display:flex;gap:14px;align-items:flex-start;margin-bottom:16px}
+  .riga .ic{width:44px;height:44px;border-radius:12px;background:var(--petrolio);display:grid;place-items:center;flex-shrink:0}
+  .riga .ic svg{width:22px;height:22px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .riga b{display:block;color:var(--petrolio)}
+  .riga a{color:var(--grigio);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+  .riga a:hover{text-decoration:underline}
+  .mappa{border-radius:20px;overflow:hidden;background-color:#DCE6EA;aspect-ratio:4/3;display:grid;place-items:center;text-align:center;padding:24px;border:1px solid var(--linea);
+    background-image:linear-gradient(rgba(15,61,76,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(15,61,76,.08) 1px,transparent 1px);background-size:34px 34px}
+  .mappa svg{width:44px;height:44px;fill:var(--arancio);margin-bottom:6px}
+  .mappa span{color:var(--grigio);font-size:.92rem}
+  @media(max-width:760px){.contatti .wrap{grid-template-columns:1fr}}
+
+  footer{background:var(--petrolio-2);color:#C9D8DE;padding:32px 0 96px;text-align:center;font-size:.88rem}
+  footer p+p{margin-top:.5em}
+
+  /* whatsapp fisso */
+  .wa-fixed{position:fixed;right:16px;bottom:16px;z-index:20;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 28px rgba(0,0,0,.35);text-decoration:none}
+  .wa-fixed svg{width:30px;height:30px;fill:#fff}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#" class="logo" aria-label="Idraulica Sala, inizio pagina"><i><svg viewBox="0 0 24 24"><path d="M12 2C12 2 5 10 5 15a7 7 0 0 0 14 0C19 10 12 2 12 2z"/></svg></i>Idraulica Sala</a>
+    <ul>
+      <li><a href="#chi">Chi siamo</a></li>
+      <li><a href="#servizi">Servizi e prezzi</a></li>
+      <li><a href="#come">Come lavoriamo</a></li>
+      <li><a href="#orari">Orari</a></li>
+      <li><a href="#contatti">Contatti</a></li>
+    </ul>
+    <a href="tel:+390391234567" class="btn btn-call nav-cta"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11 11 0 0 0 3.5.55 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.55 3.5a1 1 0 0 1-.25 1z"/></svg>Chiama</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <div class="urgent"><b></b>Pronto intervento: da noi entro 60 minuti in zona</div>
+      <h1>Perdita d'acqua? <em>Arriviamo noi.</em></h1>
+      <p class="lead">Idraulici di Monza e Brianza: perdite, caldaie, bagni rifatti. Un preventivo chiaro prima di toccare qualsiasi cosa, e a fine lavoro lasciamo tutto pulito.</p>
+      <div class="hero-btns">
+        <a href="tel:+390391234567" class="btn btn-call"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11 11 0 0 0 3.5.55 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.55 3.5a1 1 0 0 1-.25 1z"/></svg>Chiama 039 123 4567</a>
+        <a href="https://wa.me/393331234567?text=Buongiorno%2C%20ho%20bisogno%20di%20un%20idraulico" class="btn btn-wa"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 1 1-4.2 15.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 0 1 12 3.8zm-3 4.4c-.2 0-.5 0-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.5 1 3 .8 3.5.7.5 0 1.7-.7 2-1.4.2-.7.2-1.3.1-1.4l-.5-.3-1.9-.9c-.3-.1-.5-.2-.7.2l-.9 1.1c-.2.2-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.4 0-.5l-.9-2c-.2-.5-.4-.4-.6-.4H9z"/></svg>Scrivi su WhatsApp</a>
+      </div>
+      <div class="hero-info">
+        <span>Preventivo prima di iniziare</span>
+        <span>Foto del guasto su WhatsApp</span>
+        <span>Monza e Brianza</span>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 320 320" fill="none">
+        <circle cx="160" cy="160" r="140" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
+        <path d="M60 120h110a24 24 0 0 1 24 24v60" stroke="#fff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" opacity=".92"/>
+        <rect x="44" y="100" width="30" height="40" rx="6" fill="#C2410C"/>
+        <rect x="178" y="206" width="32" height="30" rx="6" fill="#C2410C"/>
+        <path d="M194 246c0 0-12 16-12 24a12 12 0 0 0 24 0c0-8-12-24-12-24z" fill="#FF9F5A"/>
+        <circle cx="236" cy="96" r="10" fill="#FF9F5A" opacity=".8"/>
+        <circle cx="262" cy="130" r="6" fill="#FF9F5A" opacity=".55"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section class="chi" id="chi">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Chi siamo</div>
+      <h2>Un idraulico che risponde al telefono</h2>
+      <p>Idraulica Sala è una piccola squadra di Monza: Paolo, Davide e Marta. Quando chiami risponde una persona, non un centralino, e ti dice subito quando possiamo arrivare.</p>
+      <p>Spieghiamo cosa non va con parole semplici, ti diamo il prezzo prima di iniziare e lavoriamo con ordine: pavimenti protetti, niente polvere in giro, niente sorprese sul conto.</p>
+    </div>
+    <ul class="punti">
+      <li><b>Prezzo detto prima</b><span>Niente voci a sorpresa: se cambia qualcosa, lo decidi tu.</span></li>
+      <li><b>Pronto intervento</b><span>Allagamenti, tubi rotti, scarichi bloccati: ci muoviamo subito.</span></li>
+      <li><b>Lavori garantiti</b><span>Se qualcosa non va dopo il nostro lavoro, torniamo a sistemarlo.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="servizi">
+  <div class="wrap">
+    <div class="eyebrow">Servizi e prezzi</div>
+    <h2>Cosa facciamo, e quanto costa</h2>
+    <div class="serv-grid">
+      <article class="serv">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5"/></svg></div>
+        <h3>Pronto intervento e perdite</h3>
+        <p>Tubi che perdono, rubinetti, scarichi intasati, sifoni, cassette del WC. Cerchiamo la perdita anche dietro il muro.</p>
+        <div class="prezzo">Uscita da 60 €, poi si decide insieme</div>
+      </article>
+      <article class="serv">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3c2 3 5 5 5 9a5 5 0 0 1-10 0c0-1.6.6-2.8 1.5-3.8.3 1 .8 1.6 1.5 2 0-2.6.4-4.6 2-7.2z"/></svg></div>
+        <h3>Caldaie</h3>
+        <p>Manutenzione annuale, riparazioni, sostituzione della vecchia caldaia con una a condensazione. Se non parte, ci pensiamo noi.</p>
+        <div class="prezzo">Controllo annuale da 90 €</div>
+      </article>
+      <article class="serv">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 12h16v2a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5v-2z"/><path d="M6 12V6a2 2 0 0 1 2-2h1"/><path d="M7 19l-1 2M17 19l1 2"/></svg></div>
+        <h3>Rifacimento bagni</h3>
+        <p>Dal progetto alla chiave in mano: demolizione, impianti, sanitari, piastrelle. Un solo referente dall'inizio alla fine.</p>
+        <div class="prezzo">Bagno completo da 4.500 €</div>
+      </article>
+      <article class="serv">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M14.5 5.5a4 4 0 0 0-5 5L4 16l4 4 5.5-5.5a4 4 0 0 0 5-5l-2.5 2.5-2.5-.5-.5-2.5z"/></svg></div>
+        <h3>Piccoli lavori in casa</h3>
+        <p>Sostituzione sanitari, miscelatori, scaldabagni, lavatrici e lavastoviglie da collegare. Anche per un lavoro da mezz'ora.</p>
+        <div class="prezzo">Da 45 € a lavoro</div>
+      </article>
+    </div>
+    <p class="serv-note">I prezzi sono indicativi e senza sorprese: il costo preciso te lo diciamo dopo aver visto il problema. IVA inclusa.</p>
+  </div>
+</section>
+
+<section class="come" id="come">
+  <div class="wrap">
+    <div class="eyebrow">Come lavoriamo</div>
+    <h2>Quattro passi, nessun mistero</h2>
+    <ol class="passi">
+      <li><h3>Ci chiami o scrivi</h3><p>Anche una foto del guasto su WhatsApp aiuta: capiamo già cosa portare.</p></li>
+      <li><h3>Arriviamo</h3><p>In emergenza entro 60 minuti in zona. Per il resto, nel giorno che ti fa comodo.</p></li>
+      <li><h3>Ti diciamo il prezzo</h3><p>Guardiamo il problema e ti spieghiamo cosa serve e quanto costa. Decidi tu.</p></li>
+      <li><h3>Sistemiamo e puliamo</h3><p>Lavoro finito, zona pulita, fattura regolare e garanzia scritta.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="info" id="orari">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Orari</div>
+      <h2>Quando trovarci</h2>
+      <ul class="orari">
+        <li><span>Lunedì</span><span>7:30 – 19:00</span></li>
+        <li><span>Martedì</span><span>7:30 – 19:00</span></li>
+        <li><span>Mercoledì</span><span>7:30 – 19:00</span></li>
+        <li><span>Giovedì</span><span>7:30 – 19:00</span></li>
+        <li><span>Venerdì</span><span>7:30 – 19:00</span></li>
+        <li><span>Sabato</span><span>8:00 – 12:30</span></li>
+        <li><span>Domenica</span><span>Solo emergenze</span></li>
+      </ul>
+      <p class="emerg"><b>Emergenza di notte o nei festivi?</b> Chiama lo stesso: il numero di pronto intervento risponde sempre.</p>
+    </div>
+    <div>
+      <div class="eyebrow">Dicono di noi</div>
+      <h2>4,9 su Google</h2>
+      <div class="rev">
+        <div class="card"><div class="stelle" aria-label="5 stelle su 5">★★★★★</div><p>"Tubo rotto di domenica sera. Hanno risposto subito e in tre quarti d'ora erano a casa mia. Prezzo detto prima, giusto."</p><small>Chiara B. · 2 settimane fa</small></div>
+        <div class="card"><div class="stelle" aria-label="5 stelle su 5">★★★★★</div><p>"Ci hanno rifatto il bagno in due settimane. Puliti, puntuali e hanno spiegato tutto con calma. Consigliati."</p><small>Roberto F. · 1 mese fa</small></div>
+        <div class="card"><div class="stelle" aria-label="5 stelle su 5">★★★★★</div><p>"Caldaia ferma a gennaio, risolto in giornata. Finalmente un idraulico che non sparisce dopo la prima telefonata."</p><small>Elena M. · 2 mesi fa</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contatti" id="contatti">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Contatti</div>
+      <h2>Dove siamo, come trovarci</h2>
+      <p class="intro">Il laboratorio è a Monza e copriamo tutta la Brianza: Lissone, Desio, Villasanta, Brugherio, Vimercate e dintorni.</p>
+      <div class="riga"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></div><div><b>Indirizzo</b><a href="https://maps.google.com/?q=Via+Lecco+45+Monza">Via Lecco 45, 20900 Monza (MB)</a></div></div>
+      <div class="riga"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11 11 0 0 0 3.5.55 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.2 2.4.55 3.5a1 1 0 0 1-.25 1z"/></svg></div><div><b>Telefono</b><a href="tel:+390391234567">039 123 4567</a></div></div>
+      <div class="riga"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5z"/></svg></div><div><b>WhatsApp</b><a href="https://wa.me/393331234567">333 123 4567</a></div></div>
+      <div class="riga"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><div><b>Email</b><a href="mailto:info@idraulicasala.example">info@idraulicasala.example</a></div></div>
+      <a href="https://maps.google.com/?q=Via+Lecco+45+Monza" class="btn btn-call" style="margin-top:8px">Apri in Google Maps</a>
+    </div>
+    <div class="mappa" role="img" aria-label="Riquadro mappa di esempio: Via Lecco 45, Monza">
+      <div>
+        <svg viewBox="0 0 24 24"><path d="M12 22s8-6.8 8-13a8 8 0 0 0-16 0c0 6.2 8 13 8 13zm0-9.5A3.5 3.5 0 1 1 12 5.500a3.5 3.5 0 0 1 0 7z"/></svg><br>
+        <b>Via Lecco 45</b><br>
+        <span>Monza · parcheggio davanti al laboratorio</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Idraulica Sala · Via Lecco 45, 20900 Monza (MB)</p>
+    <p>Sito di esempio: attività, recensioni e contatti sono inventati.</p>
+  </div>
+</footer>
+
+<a href="https://wa.me/393331234567?text=Buongiorno%2C%20ho%20bisogno%20di%20un%20idraulico" class="wa-fixed" aria-label="Scrivici su WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 1 1-4.2 15.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 0 1 12 3.8zm-3 4.4c-.2 0-.5 0-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.5 1 3 .8 3.5.7.5 0 1.7-.7 2-1.4.2-.7.2-1.3.1-1.4l-.5-.3-1.9-.9c-.3-.1-.5-.2-.7.2l-.9 1.1c-.2.2-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.4 0-.5l-.9-2c-.2-.5-.4-.4-.6-.4H9z"/></svg>
+</a>
+
+</body>
+</html>
